@@ -7,8 +7,6 @@ readme_index:
   with_frontmatter: true
   remove_originals: true
 
-source: content
-
 exclude:
   - Gemfile
   - Gemfile.lock
