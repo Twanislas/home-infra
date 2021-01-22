@@ -1,21 +1,13 @@
-title: Home infra
+title: Twan's Home infra
 description: Documentation about my home infrastructure
 
-remote_theme: rundocs/jekyll-rtd-theme
-
-readme_index:
-  with_frontmatter: true
-  remove_originals: true
+remote_theme: pmarsceill/just-the-docs
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE
 
 plugins:
-  - jekyll-default-layout
-  - jekyll-readme-index
-  - jekyll-github-metadata
-  - jekyll-titles-from-headings
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
+  - jekyll-seo-tag
+  
